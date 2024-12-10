@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="tesis_yeraldyn.Index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="tesis_yeraldyn.Home" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -22,7 +22,6 @@
             padding: 20px;
         }
 
-        /* Header */
         .header {
             background-color: #1a1a1a;
             padding: 10px 0;
@@ -32,12 +31,12 @@
         }
 
         .logo {
-            font-size: 22px; /* Aumento del tamaño del texto */
+            font-size: 22px; 
             font-weight: bold;
             color: #f5f5f5;
             text-transform: uppercase;
-            letter-spacing: 2px; /* Espaciado entre letras para un efecto de logo */
-            font-family: 'Georgia', serif; /* Fuente más formal */
+            letter-spacing: 2px; 
+            font-family: 'Georgia', serif; 
         }
 
         .nav ul {
@@ -59,24 +58,22 @@
             border-radius: 4px;
             transition: background-color 0.3s ease;
             font-weight: bold;
-            letter-spacing: 0.5px; /* Espaciado entre letras */
+            letter-spacing: 0.5px; 
         }
 
         .nav ul li a:hover {
             background-color: #444;
         }
 
-        /* Estilo para el botón "Ayuda" diferente */
         .nav ul li a.ayuda {
-            background-color: #d9534f; /* Rojo para "Ayuda" */
-            border: 1px solid #d9534f; /* Borde rojo */
+            background-color: #d9534f; 
+            border: 1px solid #d9534f; 
         }
 
         .nav ul li a.ayuda:hover {
-            background-color: #c9302c; /* Rojo más oscuro */
+            background-color: #c9302c;
         }
 
-        /* Features Section */
         .features {
             display: flex;
             flex-direction: column;
@@ -113,7 +110,7 @@
 
         .feature h3 {
             margin-bottom: 10px;
-            font-size: 22px; /* Aumento del tamaño del título */
+            font-size: 22px; 
             font-weight: bold;
             color: #f5f5f5;
         }
@@ -122,7 +119,6 @@
             color: #ccc;
         }
 
-        /* Imagen principal centrada y más ancha */
         .main-image {
             display: block;
             margin: 0 auto;
@@ -132,7 +128,6 @@
             border-radius: 10px;
         }
 
-        /* Footer */
         .footer {
             background-color: #1a1a1a;
             text-align: center;
@@ -144,7 +139,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="logo">Bienvenido a SolarSafe</h1>
+            <h1 class="logo">SolarSafe</h1>
             <nav class="nav">
                 <ul>
                     <li><a href="Login.aspx">Iniciar sesión</a></li>
@@ -155,7 +150,6 @@
         </div>
     </header>
 
-    <!-- Imagen principal más grande y centrada -->
     <div class="container">
         <img src="https://peradejordi.com/wp-content/uploads/2024/07/portada_estres-termic--1024x512.png" alt="Imagen principal" class="main-image">
     </div>

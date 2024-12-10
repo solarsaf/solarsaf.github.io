@@ -179,25 +179,19 @@
     </footer>
 
     <script>
-        // Función para manejar el envío del formulario sin recargar la página
         document.getElementById("registerForm").onsubmit = function (event) {
-            event.preventDefault(); // Evitar el comportamiento predeterminado de envío del formulario
+            event.preventDefault(); 
 
-            // Simulación de lógica de registro
-            // Aquí puedes agregar la lógica de tu backend para procesar el registro
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
             var email = document.getElementById("email").value;
 
-            // Aquí se envían los datos al backend y se verifica si el usuario fue registrado correctamente
             alert("Usuario registrado correctamente");
 
-            // Limpiar campos
             document.getElementById("username").value = "";
             document.getElementById("password").value = "";
             document.getElementById("email").value = "";
 
-            // Redirigir al usuario a la página de inicio
             window.location.href = "Home.aspx";
         };
     </script>

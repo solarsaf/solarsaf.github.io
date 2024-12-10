@@ -162,19 +162,16 @@
 
 <script>
     function sendComment() {
-        // Obtén el valor del comentario.
+
         const issueText = document.getElementById("issue").value;
 
-        // Validar si el campo está vacío.
         if (issueText.trim() === "") {
             alert("Por favor, escribe un comentario antes de enviar.");
             return;
         }
 
-        // Mostrar el mensaje de confirmación.
         alert("El comentario fue enviado correctamente.");
 
-        // Limpiar el campo de texto.
         document.getElementById("issue").value = "";
     }
 </script>

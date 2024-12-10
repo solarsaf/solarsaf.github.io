@@ -173,15 +173,11 @@
             var username = $('#username').val();
             var password = $('#password').val();
 
-            // Aquí iría la lógica para verificar las credenciales
-            // Esta es una simulación con un mensaje de éxito
             alert('Usuario registrado correctamente');
-            
-            // Limpia los campos
+
             $('#username').val('');
             $('#password').val('');
-            
-            // Redirige al usuario a la página de inicio
+
             window.location.href = 'Home.aspx';
         }
     </script>
